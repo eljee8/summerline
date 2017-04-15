@@ -1,19 +1,19 @@
 // Checkbox
 
 // Variables
-$picnic-checkbox-character: '\2714' !default;
-$picnic-checkbox-radius: $picnic-radius !default;
+$summerline-checkbox-character: '\2714' !default;
+$summerline-checkbox-radius: $summerline-radius !default;
 
 
 %checkbox {
   @extend %radio;
   
   + .checkable:before {
-    border-radius: $picnic-checkbox-radius;
+    border-radius: $summerline-checkbox-radius;
     }
 
   + .checkable:after {
-    content: $picnic-checkbox-character;
+    content: $summerline-checkbox-character;
     background: none;
     transform: scale(2) translateY(-25%);
     visibility: hidden;
@@ -21,10 +21,10 @@ $picnic-checkbox-radius: $picnic-radius !default;
     }
 
   &:checked + .checkable:after {
-    color: $picnic-black;
+    color: $summerline-black;
     background: none;
     transform: translateY(-50%);
-    transition: $picnic-transition;
+    transition: $summerline-transition;
     visibility: visible;
     opacity: 1;
     }

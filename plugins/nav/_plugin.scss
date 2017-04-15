@@ -5,12 +5,12 @@ nav {
   @extend %nav;
 }
 
-@if $picnic-nav-responsive {
+@if $summerline-nav-responsive {
   nav .burger {
     display: none;
   }
 
-  @media all and (max-width: $picnic-breakpoint) {
+  @media all and (max-width: $summerline-breakpoint) {
 
     nav {
       .burger {
@@ -30,7 +30,7 @@ nav {
         right: 0;
         bottom: -1000em;
         margin: 0;
-        background: $picnic-white;
+        background: $summerline-white;
         transition: all .3s ease;
         transform: none;
       }
@@ -56,13 +56,13 @@ nav {
 
       .burger ~ .menu > * {
         display: block;
-        margin: $picnic-separation / 2;
+        margin: $summerline-separation / 2;
         text-align: left;
-        max-width: calc(100% - #{$picnic-separation});
+        max-width: calc(100% - #{$summerline-separation});
       }
 
       .burger ~ .menu > a {
-        padding: $picnic-separation / 2 $picnic-separation * 1.5;
+        padding: $summerline-separation / 2 $summerline-separation * 1.5;
       }
     }
   }
