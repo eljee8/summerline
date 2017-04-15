@@ -1,10 +1,10 @@
 // Navigation bar
 
-$picnic-nav-height: 3em !default;
-$picnic-nav-shadow: $picnic-shadow !default;
-$picnic-nav-position: fixed !default;
-$picnic-nav-sides: .6em !default;
-$picnic-nav-responsive: true !default;
+$summerline-nav-height: 3em !default;
+$summerline-nav-shadow: $summerline-shadow !default;
+$summerline-nav-position: fixed !default;
+$summerline-nav-sides: .6em !default;
+$summerline-nav-responsive: true !default;
 
 
 // Vertical align based on
@@ -12,18 +12,18 @@ $picnic-nav-responsive: true !default;
 %nav {
 
   // Position it on the top, full width
-  position: $picnic-nav-position;
+  position: $summerline-nav-position;
   top: 0;
   left: 0;
   right: 0;
 
   // Total height
-  height: $picnic-nav-height;
-  padding: 0 $picnic-nav-sides;
+  height: $summerline-nav-height;
+  padding: 0 $summerline-nav-sides;
 
   // Make it look like a hovering bar
   background: #fff;
-  box-shadow: $picnic-nav-shadow;
+  box-shadow: $summerline-nav-shadow;
   z-index: 10000;
 
   // Everything happens slow-ish
@@ -47,10 +47,10 @@ $picnic-nav-responsive: true !default;
   .brand {
     font-weight: 700;
     float: left;
-    padding: 0 $picnic-nav-sides;
+    padding: 0 $summerline-nav-sides;
     max-width: 50%;
     white-space: nowrap;
-    color: $picnic-black;
+    color: $summerline-black;
 
     * {
       vertical-align: middle;
@@ -69,6 +69,6 @@ $picnic-nav-responsive: true !default;
   }
 
   .menu > * {
-    margin-right: $picnic-nav-sides;
+    margin-right: $summerline-nav-sides;
   }
 }

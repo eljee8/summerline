@@ -4,30 +4,30 @@ table {
 
 td,
 th {
-  padding: $picnic-separation / 2 2.4em $picnic-separation / 2 $picnic-separation;
+  padding: $summerline-separation / 2 2.4em $summerline-separation / 2 $summerline-separation;
   }
 
 th {
   text-align: left;
   font-weight: 900;
-  color: $picnic-white;
-  background-color: $picnic-primary;
+  color: $summerline-white;
+  background-color: $summerline-primary;
   }
 
 .success th {
-  background-color: $picnic-success;
+  background-color: $summerline-success;
   }
 
 .warning th {
-  background-color: $picnic-warning;
+  background-color: $summerline-warning;
   }
 
 .error th {
-  background-color: $picnic-error;
+  background-color: $summerline-error;
   }
 
 .dull th {
-  background-color: $picnic-dull;
+  background-color: $summerline-dull;
   }
 
 // Zebra stripes

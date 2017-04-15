@@ -1,29 +1,19 @@
-// Color variables
-// - Cool
-// - Warm
-// - Gray Scale
-// 
-// clrs, from https://github.com/mrmrs/colors
+// The original clrs palette (http://clrs.cc/)
 
-// Cool
-$aqua: #7fdbff !default;
-$blue: #0074d9 !default;
-$navy: #001f3f !default;
-$teal: #39cccc !default;
-$green: #2ecc40 !default;
-$olive: #3d9970 !default;
-$lime: #01ff70 !default;
-
-// Warm
-$yellow: #ffdc00 !default;
-$orange: #ff851b !default;
-$red: #ff4136 !default;
+$navy:    #001f3f !default;
+$blue:    #0074d9 !default;
+$aqua:    #7fdbff !default;
+$teal:    #39cccc !default;
+$olive:   #3d9970 !default;
+$green:   #2ecc40 !default;
+$lime:    #01ff70 !default;
+$yellow:  #ffdc00 !default;
+$orange:  #ff851b !default;
+$red:     #ff4136 !default;
+$maroon:  #85144b !default;
 $fuchsia: #f012be !default;
-$purple: #b10dc9 !default;
-$maroon: #85144b !default;
-
-// Gray Scale
-$white: #fff !default;
-$silver: #ddd !default;
-$gray: #aaa !default;
-$black: #111 !default;
+$purple:  #b10dc9 !default;
+$black:   #111111 !default;
+$gray:    #aaaaaa !default;
+$silver:  #dddddd !default;
+$white:   #ffffff !default;

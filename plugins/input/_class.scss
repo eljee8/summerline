@@ -1,8 +1,8 @@
 
 // Variables
-$picnic-input-height: 2.1em !default;
-$picnic-input-padding: $picnic-separation / 2 $picnic-separation !default;
-$picnic-input-background: #fff !default;
+$summerline-input-height: 2.1em !default;
+$summerline-input-padding: $summerline-separation / 2 $summerline-separation !default;
+$summerline-input-background: #fff !default;
 
 
 
@@ -10,16 +10,16 @@ $picnic-input-background: #fff !default;
 %input {
   line-height: 1.5;
   margin: 0;
-  height: $picnic-input-height;
-  padding: $picnic-input-padding;
-  border: $picnic-border;
-  background-color: $picnic-input-background;
-  border-radius: $picnic-radius;
-  transition: $picnic-transition;
+  height: $summerline-input-height;
+  padding: $summerline-input-padding;
+  border: $summerline-border;
+  background-color: $summerline-input-background;
+  border-radius: $summerline-radius;
+  transition: $summerline-transition;
   width: 100%;
 
   &:focus {
-    border: 1px solid $picnic-primary;
+    border: 1px solid $summerline-primary;
     outline: 0;
   }
 }

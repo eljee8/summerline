@@ -1,12 +1,12 @@
 //! Picnic CSS http://www.picnicss.com/
 
 // Imports the base variable styles
-@import './themes/default/theme';
+@import 'themes/default/theme';
 
-@import './vendor/compass-breakpoint/stylesheets/breakpoint';
+@import 'vendor/compass-breakpoint/stylesheets/breakpoint';
 
 // Normalize.css (external library)
-@import './plugins/normalize/plugin';
+@import 'plugins/normalize/plugin';
 
 // Generic styles for things like <body>, <a> and others
 // It also overwrites normalize.css a bit

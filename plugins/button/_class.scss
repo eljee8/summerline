@@ -4,13 +4,13 @@
 
 
 // Variables
-$picnic-button-margin: $picnic-separation / 2 0 !default;
-$picnic-button-padding: $picnic-label-padding !default;
-$picnic-button-hover: inset 0 0 0 99em rgba($picnic-white, $picnic-transparency) !default;
-$picnic-button-click: inset 0 0 0 99em rgba($picnic-black, $picnic-transparency) !default;
-$picnic-button-pseudo-hover: inset 0 0 0 99em rgba($picnic-black, $picnic-transparency / 2) !default;
-$picnic-button-transition: $picnic-transition !default;
-$picnic-button-radius: $picnic-label-radius !default;
+$summerline-button-margin: $summerline-separation / 2 0 !default;
+$summerline-button-padding: $summerline-label-padding !default;
+$summerline-button-hover: inset 0 0 0 99em rgba($summerline-white, $summerline-transparency) !default;
+$summerline-button-click: inset 0 0 0 99em rgba($summerline-black, $summerline-transparency) !default;
+$summerline-button-pseudo-hover: inset 0 0 0 99em rgba($summerline-black, $summerline-transparency / 2) !default;
+$summerline-button-transition: $summerline-transition !default;
+$summerline-button-radius: $summerline-label-radius !default;
 
 
 
@@ -18,10 +18,10 @@ $picnic-button-radius: $picnic-label-radius !default;
 %button {
   @extend %label;
 
-  margin: $picnic-button-margin;
+  margin: $summerline-button-margin;
   cursor: pointer;
-  transition: $picnic-button-transition;
-  border-radius: $picnic-button-radius;
+  transition: $summerline-button-transition;
+  border-radius: $summerline-button-radius;
 
   // Avoid the input { height: 2.2 }
   height: auto;
@@ -32,19 +32,19 @@ $picnic-button-radius: $picnic-label-radius !default;
   // Methods
   &:hover,
   &:focus {
-    box-shadow: $picnic-button-hover;
+    box-shadow: $summerline-button-hover;
     border: 0;
     }
 
   &.pseudo:hover,
   &.pseudo:focus {
-    box-shadow: $picnic-button-pseudo-hover;
+    box-shadow: $summerline-button-pseudo-hover;
     }
 
   &.active,
   &:active,
   &.pseudo:active {
-    box-shadow: $picnic-button-click;
+    box-shadow: $summerline-button-click;
     }
 
   &[disabled] {
@@ -58,7 +58,7 @@ $picnic-button-radius: $picnic-label-radius !default;
 // // Note: If you try to do this there's a selector explossion:
 
 // &%hover {
-//   box-shadow: $picnic-button-hover;
+//   box-shadow: $summerline-button-hover;
 //   }
 
 // &:hover {
