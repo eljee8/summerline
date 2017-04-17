@@ -1,13 +1,13 @@
-// Top level variables for Picnic CSS
+// Top level variables
 // Note: some others are available under each specific plugin
 
 @import 'colors';
 
-
 // Colors (from /themes/default/colors)
 $summerline-white: #fff !default;
 $summerline-black: #111 !default;
-$summerline-primary: $blue !default;
+//$summerline-primary: $blue !default;
+$summerline-primary: $twitterian-blue !default;
 $summerline-success: $green !default;
 $summerline-warning: $orange !default;
 $summerline-error: $red !default;
@@ -28,3 +28,15 @@ $summerline-shadow: 0 0 .2em rgba($summerline-black, $summerline-transparency) !
 
 // Transitions
 $summerline-transition: all .3s;
+
+
+// Fonts
+@import 'fonts';
+$summerline-regular-family: $regular-family !default;
+$summerline-regular-size: $regular-size !default;
+
+$summerline-header-family: $header-family !default;
+$summerline-header-size: $header-size !default;
+
+$summerline-footer-family: $footer-family !default;
+$summerline-footer-size: $footer-size !default;

@@ -1,7 +1,7 @@
 //! Picnic CSS http://www.picnicss.com/
 
 // Imports the base variable styles
-@import 'themes/default/theme';
+@import 'themes/default/_theme.scss';
 
 @import 'vendor/compass-breakpoint/stylesheets/breakpoint';
 
@@ -10,28 +10,33 @@
 
 // Generic styles for things like <body>, <a> and others
 // It also overwrites normalize.css a bit
-@import 'plugins/generic/plugin';
-@import 'plugins/fontello/plugin';
+@import 'plugins/generic/_plugin.scss';
+@import 'plugins/fontello/_plugin.scss';
 
 // Simple elements
-@import 'plugins/label/plugin';
+@import 'plugins/label/_plugin.scss';
 @import 'plugins/button/plugin';
 
 // Forms
-@import 'plugins/input/plugin';
-@import 'plugins/select/plugin';
-@import 'plugins/radio/plugin';
-@import 'plugins/checkbox/plugin';
+@import 'plugins/input/_plugin.scss';
+@import 'plugins/select/_plugin.scss';
+@import 'plugins/radio/_plugin.scss';
+@import 'plugins/checkbox/_plugin.scss';
 
 // Components
-@import 'plugins/table/plugin';
-@import 'plugins/grid/plugin';
+@import 'plugins/table/_plugin.scss';
+@import 'plugins/grid/_plugin.scss';
 
 // Extra
-@import 'plugins/nav/plugin';
-@import 'plugins/stack/plugin';
-@import 'plugins/card/plugin';
-@import 'plugins/modal/plugin';
-@import 'plugins/dropimage/plugin';
-@import 'plugins/tabs/plugin';
-@import 'plugins/tooltip/plugin';
+@import 'plugins/nav/_plugin.scss';
+@import 'plugins/stack/_plugin.scss';
+@import 'plugins/card/_plugin.scss';
+@import 'plugins/modal/_plugin.scss';
+@import 'plugins/dropimage/_plugin.scss';
+@import 'plugins/tabs/_plugin.scss';
+@import 'plugins/tooltip/_plugin.scss';
+
+
+// New
+@import 'plugins/pagefooter/_plugin.scss';
+@import 'plugins/pagehero/_plugin.scss';
