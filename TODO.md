@@ -3,6 +3,7 @@
 
 ## Definitely
 - [ ] Page Hero plugin (almost ready, need some fixes)
+- [ ] Fullpage Section plugin
 - [ ] Extend input styles, add validation statuses
 - [ ] New branding colours palette 
 
