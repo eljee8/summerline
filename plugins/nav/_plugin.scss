@@ -48,7 +48,8 @@ nav {
       }
 
       .show:checked ~ .menu {
-        width: 50%;
+        min-width: 25%;
+        max-width: 50%;
         overflow: auto;
         transition: all .3s ease;
         height: 100vh;

@@ -3,7 +3,7 @@
 // Imports the base variable styles
 @import 'themes/default/_theme.scss';
 
-@import 'vendor/compass-breakpoint/stylesheets/breakpoint';
+//@import 'vendor/compass-breakpoint/stylesheets/breakpoint';
 
 // Normalize.css (external library)
 @import 'plugins/normalize/plugin';
@@ -11,7 +11,7 @@
 // Generic styles for things like <body>, <a> and others
 // It also overwrites normalize.css a bit
 @import 'plugins/generic/_plugin.scss';
-@import 'plugins/fontello/_plugin.scss';
+//@import 'plugins/fontello/_plugin.scss';
 
 // Simple elements
 @import 'plugins/label/_plugin.scss';
@@ -34,7 +34,7 @@
 @import 'plugins/modal/_plugin.scss';
 @import 'plugins/dropimage/_plugin.scss';
 @import 'plugins/tabs/_plugin.scss';
-@import 'plugins/tooltip/_plugin.scss';
+//@import 'plugins/tooltip/_plugin.scss';
 
 
 // New
