@@ -4,3 +4,8 @@ header.hero {
   min-height: 300px;
   background: no-repeat center/cover url("/pictures/hero.png") scroll;
 }
+
+nav.transparent {
+  background: transparent;
+  box-shadow: none;
+}
