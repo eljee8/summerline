@@ -69,8 +69,7 @@ $summerline-grid-offpart-sizes: (
 .flex > * {
   box-sizing: border-box;
   flex: 1 1 auto; /* Default for IE10 bug */
-  padding-left: $summerline-grid-gutter-horizontal;
-  padding-bottom: $summerline-grid-gutter-vertical;
+  padding: $summerline-grid-gutter-horizontal;
 }
 
 .flex {
